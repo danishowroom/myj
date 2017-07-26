@@ -15,3 +15,15 @@ body{
     height: auto;
 }
 
+#table-of-contents {
+    display:none;
+}
+#posts-content h2 {
+    font-size: 16px;
+
+}
+
+
+#posts-content h2 span {
+    display:none;
+}

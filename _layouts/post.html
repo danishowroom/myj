@@ -13,11 +13,13 @@
       border: 1px solid #979797;
       border-radius: 5px;
       max-width:530px;
-      padding:5px;
+      padding:10px;
 
       }
-      #posts-content h3 {
-            text-align:center;
+      #posts-content h1 {
+      text-align:center;
+      font-size: 20px;
+      padding:20px 0;
       }
       .bread {
       padding:5px 17px;
@@ -34,9 +36,10 @@
     {% include nav.html %}
     <div id="main-content" class="container-fluid justify-content-center" style="padding:5px 0;background: #031635;">
       <div class="container"  style="max-width:750px">
-        <div class="bread"> <spam> 健康小知识</spam></div>
+        <div class="bread"> <span> 健康小知识</span></div>
       <div class="row">
         <div id="posts-content" class="col-xs-12 col-12" >
+          <h1> {{ page.title }} </h1>
           {{ content }}
         </div>
       </div>
