@@ -19,11 +19,18 @@ body{
     display:none;
 }
 #posts-content h2 {
-    font-size: 16px;
+    font-size: 20px;
+
+}
+#posts-content h3 {
+    font-size: 18px;
 
 }
 
 
 #posts-content h2 span {
+    display:none;
+}
+#posts-content h3 span {
     display:none;
 }
