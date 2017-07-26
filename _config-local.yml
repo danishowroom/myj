@@ -1,0 +1,10 @@
+img_host: ""
+assets_host: "http://img.danishshowroom.cn"
+
+defaults:
+  -
+    scope:
+      path: "" # 一个空的字符串代表项目中所有的文件
+      type: "posts" 
+    values:
+      layout: "post"

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>{{ page.title }}</title>
+    <meta name="description" content="{{ site.description }}">
+    <meta name="author" content="mayday">
+    {% include links.html %}
+    <style>
+      #posts-content {
+      /* Rectangle 5: */
+      background: #FFFFFF;
+      border: 1px solid #979797;
+      border-radius: 5px;
+      max-width:530px;
+      padding:5px;
+
+      }
+      #posts-content h3 {
+            text-align:center;
+      }
+      .bread {
+      padding:5px 17px;
+      background:url({{site.img_host}}/images/icon-knowledge.png) no-repeat left center;
+
+      font-weight: 200;
+      font-size: 14px;
+      color: #FFFFFF;
+      margin-left:-15px;
+      }
+    </style>
+</head>
+  <body>
+    {% include nav.html %}
+    <div id="main-content" class="container-fluid justify-content-center" style="padding:5px 0;background: #031635;">
+      <div class="container"  style="max-width:750px">
+        <div class="bread"> <spam> 健康小知识</spam></div>
+      <div class="row">
+        <div id="posts-content" class="col-xs-12 col-12" >
+          {{ content }}
+        </div>
+      </div>
+    </div></div>
+    {% include footer.html %}
+  </body>
+</html>
+
