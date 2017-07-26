@@ -47,6 +47,7 @@ end
 
 
 $stdout = STDOUT
+exit
 
 # Upload images
 buc = 'danishowroom'
