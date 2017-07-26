@@ -3,8 +3,15 @@ body{
     
 }
 
-#main-content {
+#main-content img {
+    max-width: 100%;
+    height: auto;
     
 }
 
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
 

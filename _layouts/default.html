@@ -6,10 +6,17 @@
     <meta name="description" content="{{ site.description }}">
     <meta name="author" content="mayday">
     {% include links.html %}
+
+    <style>
+      #main-content{
+      padding:30px 0;
+      background:url({{site.img_host}}/images/bg.jpg?imageView2/2/w/700/h/1000/q/75|imageslim) #FFF;
+      }
+    </style>
 </head>
   <body>
     {% include nav.html %}
-    <div id="main-content" class="container-fluid" style="padding:30px 0;background:url({{site.img_host}}/images/bg.jpg) #FFF;">
+    <div id="main-content" class="container-fluid">
       {{ content }}
     </div>
     {% include footer.html %}
