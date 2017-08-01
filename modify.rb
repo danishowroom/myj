@@ -2,6 +2,7 @@
 # coding: utf-8
 require "~/qiniu_sdk.rb"
 
+
 ARGF.inplace_mode = ""
 
 
@@ -47,8 +48,8 @@ end
 
 
 $stdout = STDOUT
-exit
 
+puts $title
 # Upload images
 buc = 'danishowroom'
 
